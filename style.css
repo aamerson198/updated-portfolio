@@ -1,0 +1,117 @@
+.bg-video {
+  position: fixed;
+  display: block;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+}
+.about {
+  background-color: whitesmoke;
+  height: 400px;
+  margin-top: 50px;
+}
+.drewpic {
+  margin: 15px;
+  float: left;
+}
+
+p {
+  margin: 5px;
+}
+
+.navbar-brand {
+  font-size: 2.5em;
+}
+
+/* The sidebar menu */
+.sidenav {
+  margin-top: 10px;
+  float: right;
+  height: 500px; /* Full-height: remove this if you want "auto" height */
+  width: 190px; /* Set the width of the sidebar */
+  /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+
+  background-color: rgb(15, 15, 15); /* Black */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
+}
+
+/* The navigation menu links */
+.sidenav a {
+  text-align: right;
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+/* Style page content */
+
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
+}
+.porfoliocontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: whitesmoke;
+  height: 400px;
+
+  z-index: 1;
+}
+
+.marta {
+}
+
+.plannerDiv {
+}
+
+.martapic {
+  border-style: solid;
+  border-width: 2.5px;
+  border-color: black;
+  border-radius: 2px;
+}
+.plannerPic {
+  border-style: solid;
+  border-width: 2.5px;
+  border-color: black;
+  border-radius: 2px;
+
+  text-align: center;
+  color: blue;
+}
+figcaption {
+  text-align: center;
+}
+.titleDiv {
+  text-align: center;
+  height: 45px;
+  color: black;
+  background-color: whitesmoke;
+}
+
+nav {
+  margin-bottom: 20px;
+}
+
+.resumeDiv {
+  text-align: center;
+  color: #f1f1f1;
+}
